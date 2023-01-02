@@ -1,0 +1,86 @@
+.rodape__info {
+    padding: 16px;
+    background-color: var(--bg-footer);
+}
+
+.rodape__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.rodape__links .rodape__logo {
+    width: 176px;
+}
+
+.rodape__links ul {
+    display: grid;
+    row-gap: 16px;
+    text-align: center;
+}
+
+.rodape__links ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--texto);
+}
+
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__contato .titulo {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--texto);
+    margin-bottom: 8px;
+}
+
+.rodape__contato .nome {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px 32px;
+    margin-bottom: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.rodape__contato .nome::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--placeholder);
+}
+
+.rodape__contato .mensagem {
+    border: none;
+    border-radius: 4px;
+    padding: 16px 12px 46px;
+    margin-bottom: 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.rodape__contato .mensagem::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--placeholder);
+}
+
+.rodape__contato .btn {
+    padding: 12px 16px;
+    align-self: flex-start;
+    border: none;
+    color: var(--branco);
+    background-color: var(--botao);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rodape__desenvolvedor {
+    text-align: center;
+    padding: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--texto);
+}
