@@ -1,0 +1,12 @@
+:root {
+    /*FONTES*/
+    --fonte: 'Raleway', sans-serif;
+    /*CORES*/
+    --botao: #2A7AE4;
+    --links: #2A7AE4;
+    --texto: #464646;
+    --bg-footer: #EAF2FD;
+    --placeholder: #A2A2A2;
+    --branco: #FFFFFF;
+    --fonte-banner: #FFFFFF
+}

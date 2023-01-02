@@ -1,0 +1,19 @@
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.cabecalho .cabecalho__logo {
+    width: 100px;
+}
+
+.cabecalho .cabecalho__btn {
+    color: var(--links);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 47.5px;
+    border: 1px solid var(--botao);
+}

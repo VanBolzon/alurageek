@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+@import url('../css/cabecalho.css');
+@import url('../css/banner.css');
+
+body {
+    font-family: var(--fonte);
+    display: grid;
+    grid-template-areas: 
+    'cabecalho cabecalho cabecalho'
+    'banner banner banner'
+    ;
+}

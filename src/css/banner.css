@@ -1,0 +1,16 @@
+.banner-promocional {
+    grid-area: banner;
+    background: red url('../img/Hero-pq.svg') no-repeat center center;
+    background-size: cover;
+    height: 192px;
+    color: var(--fonte-banner);
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    display: grid;
+    align-items: flex-end;
+}
+
+.banner-promocional .banner-info {
+    display: grid;
+    row-gap: 8px;
+}
