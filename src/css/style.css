@@ -9,10 +9,9 @@ body {
     font-family: var(--fonte);
     display: grid;
     grid-template-areas: 
-    'cabecalho cabecalho'
-    'banner banner'
-    'produto produto'
-    'rodape rodape'
+    'cabecalho cabecalho cabecalho'
+    'banner banner banner'
+    'produto produto produto'
+    'rodape rodape rodape'
     ;
-    grid-template-columns: auto auto;
 }

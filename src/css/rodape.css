@@ -1,3 +1,7 @@
+.rodape {
+    grid-area: rodape;
+}
+
 .rodape__info {
     padding: 16px;
     background-color: var(--bg-footer);

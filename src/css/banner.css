@@ -1,6 +1,6 @@
 .banner-promocional {
     grid-area: banner;
-    background: red url('../img/Hero-pq.svg') no-repeat center center;
+    background: url('../img/Hero-pq.svg') no-repeat center center;
     background-size: cover;
     height: 192px;
     color: var(--fonte-banner);
@@ -15,6 +15,16 @@
     row-gap: 8px;
 }
 
+.banner-promocional .banner-info .banner-info__titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner-promocional .banner-info .banner-info__descricao {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .banner-promocional .banner-info__btn {
     padding: 12px 16px;
     font-size: 14px;
@@ -22,4 +32,22 @@
     color: var(--fonte-banner);
     background-color: var(--botao);
     justify-self: start;
+}
+
+@media screen and (min-width: 768px) {
+    .banner-promocional {
+        background: url('../img/Hero-md.svg') no-repeat center center;
+    background-size: cover;
+    padding: 32px;
+    height: 352px;
+    }
+
+    .banner-promocional .banner-info .banner-info__titulo {
+        font-size: 52px;
+    }
+
+    .banner-promocional .banner-info .banner-info__descricao {
+        font-size: 22px;
+        font-weight: 700;
+    }
 }
