@@ -62,3 +62,18 @@
         padding: 12px 64px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding: 32px 0;
+        margin: 0 152px;
+    }
+
+    .cabecalho .cabecalho__barra-pesquisa {
+        width: 393px;
+    }
+
+    .cabecalho .cabecalho__btn {
+        padding: 12px 70px;
+    }
+}
