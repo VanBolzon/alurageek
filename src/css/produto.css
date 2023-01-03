@@ -75,6 +75,17 @@
     }
 
     .produtos .lista-produtos .produto {
-        width: 25%
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produtos {
+        padding: 64px 0;
+        margin: 0 152px;
+    }
+
+    .produtos .lista-produtos .produto.none {
+        display: block;
     }
 }
