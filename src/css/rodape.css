@@ -88,3 +88,21 @@
     font-weight: 500;
     color: var(--texto);
 }
+
+@media screen and (min-width: 768px) {
+    .rodape__info {
+        padding: 32px;
+        display: grid;
+        grid-template-columns: 254px 1fr;
+        column-gap: 16px;
+    }
+
+    .rodape__links {
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+
+    .rodape__links ul {
+        text-align: left;
+    }
+}
