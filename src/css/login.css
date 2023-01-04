@@ -1,0 +1,61 @@
+.login {
+    padding: 97px 40px 76px 45px;
+    background-color: var(--bg-login);
+    text-align: center;
+    grid-area: login;
+}
+
+.login .login__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--texto);
+    margin-bottom: 16px;
+}
+
+.login .login__email,
+.login .login__senha {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.login .login__email::placeholder,
+.login .login__senha::placeholder {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--placeholder);
+}
+
+.login .login__email:focus,
+.login .login__senha:focus {
+    outline-color: var(--botao);
+}
+
+.login .login__entrar {
+    padding: 12px 34px;
+    border: none;
+    background-color: var(--botao);
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    .login {
+        padding: 45px 247px 61px 246px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .login {
+        padding: 92px 509px 91px 508px;
+    }
+
+    .login .login__entrar {
+        width: 100%;
+        font-size: 18px;
+    }
+}

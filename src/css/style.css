@@ -4,12 +4,14 @@
 @import url('../css/banner.css');
 @import url('../css/produto.css');
 @import url('../css/rodape.css');
+@import url('../css/login.css');
 
 body {
     font-family: var(--fonte);
     display: grid;
     grid-template-areas: 
     'cabecalho cabecalho cabecalho'
+    'login login login'
     'banner banner banner'
     'produto produto produto'
     'rodape rodape rodape'

@@ -109,7 +109,7 @@
 
 @media screen and (min-width: 1440px) {
     .rodape__info {
-        padding: 64px;
+        padding: 64px 152px;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -124,5 +124,6 @@
 
     .rodape__links ul{
         grid-area: lista;
+        gap: 24px
     }
 }

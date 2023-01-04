@@ -69,6 +69,10 @@
         margin: 0 152px;
     }
 
+    .cabecalho .cabecalho__logo {
+        width: 176px;
+    }
+
     .cabecalho .cabecalho__barra-pesquisa {
         width: 393px;
     }
