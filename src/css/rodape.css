@@ -106,3 +106,23 @@
         text-align: left;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .rodape__info {
+        padding: 64px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .rodape__links {
+        display: grid;
+        grid-template-areas: 'logo lista';
+    }
+
+    .rodape__logo {
+        grid-area: logo;
+    }
+
+    .rodape__links ul{
+        grid-area: lista;
+    }
+}
