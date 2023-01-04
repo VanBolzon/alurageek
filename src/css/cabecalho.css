@@ -14,6 +14,10 @@
     display: none;
 }
 
+.cabecalho .cabecalho__barra-pesquisa:focus {
+    outline-color: var(--botao);
+}
+
 .cabecalho .cabecalho__btn {
     color: var(--links);
     font-size: 14px;

@@ -51,6 +51,11 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
 
+.rodape__contato .nome:focus,
+.rodape__contato .mensagem:focus {
+    outline-color: var(--botao);
+}
+
 .rodape__contato .nome::placeholder {
     font-weight: 400;
     font-size: 12px;
