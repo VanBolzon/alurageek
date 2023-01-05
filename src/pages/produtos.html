@@ -1,194 +1,165 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek | Home</title>
+    <title>AluraGeek | Produtos</title>
     <!-- LINK DOS ARQUIVOS CSS -->
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
     <header class="cabecalho">
         <div class="cabecalho__search">
-            <h1><img src="src/img/Logo.svg" alt="Logo da AluraGeek" class="cabecalho__logo"></h1>
+            <h1><img src="../img/Logo.svg" alt="Logo da AluraGeek" class="cabecalho__logo"></h1>
             <input type="text" class="cabecalho__barra-pesquisa" placeholder="O que deseja encontrar?">
         </div>
-        <a href="src/pages/login.html" class="cabecalho__btn btn-login">Login</a>
-        <img src="src/img/Icone.svg" alt="Botão pesquisar" class="cabecalho__btn-pesquisar">
+        <img src="../img/Icone.svg" alt="Botão pesquisar" class="cabecalho__btn-pesquisar">
     </header>
 
-    <section class="banner-promocional">
-        <div class="banner-info">
-            <h2 class="banner-info__titulo">Dezembro Promocional</h2>
-            <p class="banner-info__descricao">Produtos selecionados com 33% de desconto</p>
-            <a class="banner-info__btn" href="#">Ver consoles</a>
-        </div>
-    </section>
+    <main class="secao-produtos">
+        <section class="produtos">
+            <div class="produtos__topo">
+                <h2 class="produtos__titulo">Todos os produtos</h2>
+                <a href="adicionar-produto.html" class="btn btn-adicionar-produto">Adicionar produto</a>
+            </div>
 
-    <section class="produtos">
-        <div class="linha__produtos produtos__star-wars">
-            <span class="topo">
-                <h2 class="topo__titulo">Star Wars</h2>
-                <a href="#" class="topo__link">Ver tudo <img src="src/img/seta-ver-tudo.svg" alt="Seta ver tudo"></a>
-            </span>
-
-            <ul class="lista-produtos ">
+            <ul class="produtos-lista">
                 <li class="produto">
-                    <img class="produto__imagem" src="src/img/star-wars-1.svg" alt="Star Wars 1">
+                    <img class="produto__imagem" src="../img/star-wars-1.svg" alt="Star Wars 1">
                     <h3 class="produto__nome">Produto XYZ</h3>
                     <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
+                    <a href="#" class="produto__link">#1111111</a>
                 </li>
 
                 <li class="produto">
-                    <img class="produto__imagem" src="src/img/star-wars-2.svg" alt="Star Wars 2">
+                    <img class="produto__imagem" src="../img/star-wars-2.svg" alt="Star Wars 2">
                     <h3 class="produto__nome">Produto XYZ</h3>
                     <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
+                    <a href="#" class="produto__link">#1111111</a>
                 </li>
 
                 <li class="produto">
-                    <img class="produto__imagem" src="src/img/star-wars-3.svg" alt="Star Wars 3">
+                    <img class="produto__imagem" src="../img/star-wars-3.svg" alt="Star Wars 3">
                     <h3 class="produto__nome">Produto XYZ</h3>
                     <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
+                    <a href="#" class="produto__link">#1111111</a>
                 </li>
 
                 <li class="produto">
-                    <img class="produto__imagem" src="src/img/star-wars-4.svg" alt="Star Wars 4">
+                    <img class="produto__imagem" src="../img/star-wars-4.svg" alt="Star Wars 4">
                     <h3 class="produto__nome">Produto XYZ</h3>
                     <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
+                    <a href="#" class="produto__link">#1111111</a>
                 </li>
 
                 <li class="produto none">
-                    <img class="produto__imagem" src="src/img/star-wars-5.svg" alt="Star Wars 5">
+                    <img class="produto__imagem" src="../img/star-wars-5.svg" alt="Star Wars 5">
                     <h3 class="produto__nome">Produto XYZ</h3>
                     <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
+                    <a href="#" class="produto__link">#1111111</a>
                 </li>
 
                 <li class="produto none">
-                    <img class="produto__imagem" src="src/img/star-wars-6.svg" alt="Star Wars 6">
+                    <img class="produto__imagem" src="../img/star-wars-6.svg" alt="Star Wars 6">
                     <h3 class="produto__nome">Produto XYZ</h3>
                     <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/consoles-1.svg" alt="Consoles 1">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/consoles-2.svg" alt="Consoles 2">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/consoles-3.svg" alt="Consoles 3">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/consoles-4.svg" alt="Consoles 4">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto none">
+                    <img class="produto__imagem" src="../img/consoles-5.svg" alt="Consoles 5">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto none">
+                    <img class="produto__imagem" src="../img/consoles-6.svg" alt="Consoles 6">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/diversos-1.svg" alt="Diversos 1">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/diversos-2.svg" alt="Diversos 2">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/diversos-3.svg" alt="Diversos 3">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto">
+                    <img class="produto__imagem" src="../img/diversos-4.svg" alt="Diversos 4">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto none">
+                    <img class="produto__imagem" src="../img/diversos-5.svg" alt="Diversos 5">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
+                </li>
+
+                <li class="produto none">
+                    <img class="produto__imagem" src="../img/diversos-6.svg" alt="Diversos 6">
+                    <h3 class="produto__nome">Produto XYZ</h3>
+                    <p class="produto__preco">R$ 60,00</p>
+                    <a href="#" class="produto__link">#1111111</a>
                 </li>
             </ul>
-        </div>
-
-        <div class="linha__produtos produtos__consoles">
-            <span class="topo">
-                <h2 class="topo__titulo">Consoles</h2>
-                <a href="#" class="topo__link">Ver tudo <img src="src/img/seta-ver-tudo.svg" alt="Seta ver tudo"></a>
-            </span>
-
-            <ul class="lista-produtos ">
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/consoles-1.svg" alt="Consoles 1">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/consoles-2.svg" alt="Consoles 2">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/consoles-3.svg" alt="Consoles 3">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/consoles-4.svg" alt="Consoles 4">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto none">
-                    <img class="produto__imagem" src="src/img/consoles-5.svg" alt="Consoles 5">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto none">
-                    <img class="produto__imagem" src="src/img/consoles-6.svg" alt="Consoles 6">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="linha__produtos produtos__star-wars">
-            <span class="topo">
-                <h2 class="topo__titulo">Diversos</h2>
-                <a href="#" class="topo__link">Ver tudo <img src="src/img/seta-ver-tudo.svg" alt="Seta ver tudo"></a>
-            </span>
-
-            <ul class="lista-produtos ">
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/diversos-1.svg" alt="Diversos 1">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/diversos-2.svg" alt="Diversos 2">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/diversos-3.svg" alt="Diversos 3">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto">
-                    <img class="produto__imagem" src="src/img/diversos-4.svg" alt="Diversos 4">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto none">
-                    <img class="produto__imagem" src="src/img/diversos-5.svg" alt="Diversos 5">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-
-                <li class="produto none">
-                    <img class="produto__imagem" src="src/img/diversos-6.svg" alt="Diversos 6">
-                    <h3 class="produto__nome">Produto XYZ</h3>
-                    <p class="produto__preco">R$ 60,00</p>
-                    <a href="#" class="produto__link">Ver produto</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="rodape">
         <section class="rodape__info">
             <div class="rodape__links">
-                <img src="src/img/Logo.svg" alt="Logo da AluraGeek" class="rodape__logo">
+                <img src="../img/Logo.svg" alt="Logo da AluraGeek" class="rodape__logo">
 
                 <ul>
                     <li>
@@ -226,5 +197,4 @@
         </div>
     </footer>
 </body>
-
 </html>

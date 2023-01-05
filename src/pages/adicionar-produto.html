@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek | Login</title>
+    <title>AluraGeek | Adicionar produtos</title>
     <!-- LINK DOS ARQUIVOS CSS -->
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="cabecalho__search">
             <h1><img src="../img/Logo.svg" alt="Logo da AluraGeek" class="cabecalho__logo"></h1>
             <input type="text" class="cabecalho__barra-pesquisa" placeholder="O que deseja encontrar?">
         </div>
+        <a href="produtos.html" class="cabecalho__btn btn-menu-adm">Menu administrador</a>
         <img src="../img/Icone.svg" alt="Botão pesquisar" class="cabecalho__btn-pesquisar">
     </header>
+        <section class="adicionar-produto">
+            <label class="adicionar-produto__titulo">Adicionar novo produto</label>
 
-    <main class="login">
-        <h2 class="login__titulo">Iniciar sessão</h2>
-        <input type="text" class="login__email" placeholder="Escreva seu email">
-        <input type="password" class="login__senha" placeholder="Escreva sua senha">
-        <a href="produtos.html" class="login__entrar btn">Entrar</a>
-    </main>
+            <input type="text" class="adicionar-produto__input adicionar-produto__imagem" placeholder="URL da imagem">
+            <input type="text" class="adicionar-produto__input adicionar-produto__categoria" placeholder="Categoria">
+            <input type="text" class="adicionar-produto__input adicionar-produto__nome" placeholder="Nome do produto">
+            <input type="text" class="adicionar-produto__input adicionar-produto__preco" placeholder="Preço do produto">
+            <input type="text" class="adicionar-produto__input adicionar-produto__descricao" placeholder="Descrição do produto">
+            <button>Adicionar produto</button>
+        </section>
 
     <footer class="rodape">
         <section class="rodape__info">
@@ -67,4 +73,5 @@
         </div>
     </footer>
 </body>
+
 </html>

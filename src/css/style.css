@@ -5,6 +5,8 @@
 @import url('../css/produto.css');
 @import url('../css/rodape.css');
 @import url('../css/login.css');
+@import url('../css/page-produto.css');
+@import url('../css/page-adicionar-produto.css');
 
 body {
     font-family: var(--fonte);
